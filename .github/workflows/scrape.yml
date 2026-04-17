@@ -1,4 +1,4 @@
-﻿name: Nepali News Scraper
+name: Nepali News Scraper
 
 on:
   schedule:
@@ -23,3 +23,16 @@ jobs:
 
       - name: Run Nepali news scraper
         run: python scrape.py --output data --retention 2 --since-hours 24 --delay 2 --max-links 30 --include-unknown-date
+
+      # ---------------------------------------------------------
+      # NEW: Commit and Push the scraped data back to the repo
+      # ---------------------------------------------------------
+      - name: Commit and push scraped data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # The '|| true' prevents the workflow from failing if no new articles were found
+          git commit -m "Automated scraper data update" || true
+          git push
+      # ---------------------------------------------------------
