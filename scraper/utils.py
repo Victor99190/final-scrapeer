@@ -43,6 +43,11 @@ def safe_get(session: requests.Session, url: str, timeout: int = 20) -> Optional
     try:
         response = session.get(url, timeout=timeout)
         response.raise_for_status()
+        
+        # THIS IS THE CRITICAL ADDITION:
+        # It forces Python to read the Nepali characters correctly.
+        response.encoding = 'utf-8' 
+        
         return response.text
     except Exception as exc:
         logging.warning("HTTP fetch failed for %s: %s", url, exc)
