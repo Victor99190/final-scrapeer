@@ -1,0 +1,36 @@
+{
+  "source": "techlekh",
+  "url": "https://techlekh.com/about-us/",
+  "title": "About Us",
+  "published_at": null,
+  "scraped_at": "2026-04-20T09:58:54.135280",
+  "authors": [],
+  "summary": "TechLekh is Nepal’s leading digital tech media company, dedicated to representing the latest ideas and innovations entering the Nepali market. Our goal is to provide a one-stop shop for in-depth information about the technological activities taking place throughout Nepal. Our platform features coverage of innovative Nepali startups, products, events, and interviews that are changing the landscape",
+  "content": "TechLekh is Nepal’s leading digital tech media company, dedicated to representing the latest ideas and innovations entering the Nepali market. Our goal is to provide a one-stop shop for in-depth information about the technological activities taking place throughout Nepal.\n\nOur platform features coverage of innovative Nepali startups, products, events, and interviews that are changing the landscape of technology in Nepal. We also offer reviews and news on gadgets and automobiles, keeping our readers up-to-date on the latest trends in these areas.\n\nThe name TechLekh was inspired by joining the English word “Tech” and the Nepali word “Lekh/ लेख” which means “to write.” This combination represents our mission of writing about technology to represent Nepal.\n\nEstablished in 2015 by tech enthusiasts Abhishek Gupta and Subigya Nepal, TechLekh brings together a team of brilliant writers and fellow tech enthusiasts who work together to keep our readers informed on the latest technological progress in Nepal.\n\nStay up to date with the latest technology news and analysis from TechLekh by following us on social media. You can find us on Facebook, Twitter, Instagram, YouTube, TikTok, and LinkedIn. Our social media pages are updated regularly with the latest news and insights from our team of experts.",
+  "main_image": "https://techlekh.com/wp-content/uploads/2026/03/TechLekh-Banner.jpg",
+  "image_urls": [
+    "https://techlekh.com/wp-content/uploads/2026/03/TechLekh-Banner.jpg",
+    "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20313%20119'%3E%3C/svg%3E",
+    "https://techlekh.com/wp-content/uploads/2017/05/TechLekh-Logo-1.png",
+    "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%2050'%3E%3C/svg%3E",
+    "https://techlekh.com/wp-content/uploads/2024/12/bajaj-ad-mobile-dec-14.gif"
+  ],
+  "tags": [],
+  "language": "ne",
+  "meta": {
+    "og:locale": "en_US",
+    "og:type": "article",
+    "og:title": "About Us",
+    "og:description": "TechLekh is Nepal's leading digital tech media company, showcasing the latest ideas and innovations entering the Nepali market.",
+    "og:url": "https://techlekh.com/about-us/",
+    "og:site_name": "TechLekh",
+    "og:image": "https://techlekh.com/wp-content/uploads/2026/03/TechLekh-Banner.jpg",
+    "og:image:width": "1640",
+    "og:image:height": "856",
+    "og:image:type": "image/jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@techlekh",
+    "twitter:label1": "Est. reading time",
+    "twitter:data1": "1 minute"
+  }
+}

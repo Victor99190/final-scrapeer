@@ -1,0 +1,35 @@
+{
+  "source": "gadgetbyte",
+  "url": "https://www.gadgetbytenepal.com/login/",
+  "title": "Gadgetbyte Nepal – Latest Tech News, Gadget Reviews & Prices in Nepal",
+  "published_at": null,
+  "scraped_at": "2026-04-20T09:58:47.275412",
+  "authors": [],
+  "summary": "",
+  "content": "",
+  "main_image": "https://www.gadgetbytenepal.com/images/gbn-og-image.webp",
+  "image_urls": [
+    "https://www.gadgetbytenepal.com/images/gbn-og-image.webp",
+    "https://www.gadgetbytenepal.com/images/gbn-og-image.webp"
+  ],
+  "tags": [],
+  "language": "ne",
+  "meta": {
+    "og:title": "Gadgetbyte Nepal",
+    "og:description": "Latest tech news, gadget reviews, and prices in Nepal.",
+    "og:url": "https://www.gadgetbytenepal.com/",
+    "og:site_name": "Gadgetbyte Nepal",
+    "og:locale": "en_US",
+    "og:image": "https://www.gadgetbytenepal.com/images/gbn-og-image.webp",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "Gadgetbyte Nepal",
+    "og:type": "website",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@gadgetbytenepal",
+    "twitter:creator": "@gadgetbytenepal",
+    "twitter:title": "Gadgetbyte Nepal",
+    "twitter:description": "Latest tech news, gadget reviews, and prices in Nepal.",
+    "twitter:image": "https://www.gadgetbytenepal.com/images/gbn-og-image.webp"
+  }
+}
