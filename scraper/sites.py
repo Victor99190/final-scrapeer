@@ -303,3 +303,10 @@ SITE_CONFIGS: List[SiteConfig] = [
         author_selectors=["[rel='author']", ".byline"],
     )
 ]
+# Add this at the end of scraper/sites.py
+
+def get_site_configs() -> List[SiteConfig]:
+    """
+    Returns the list of all configured sites for the crawler.
+    """
+    return SITE_CONFIGS
