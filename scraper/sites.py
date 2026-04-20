@@ -1,5 +1,5 @@
 import re
-from typing import List
+from typing import List, Optional, Callable
 from dataclasses import dataclass
 
 @dataclass
@@ -12,7 +12,8 @@ class SiteConfig:
     title_selectors: List[str]
     date_selectors: List[str]
     author_selectors: List[str]
-
+    # Added this line below to fix the AttributeError
+    article_filter: Optional[Callable[[str], bool]] = None
 SITE_CONFIGS: List[SiteConfig] = [
 
     # ==========================================
