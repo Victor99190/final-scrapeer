@@ -29,6 +29,16 @@ from .utils import (
     write_json,
 )
 
+# --- BOT BYPASS HEADERS ---
+# These headers trick Cloudflare and other firewalls into thinking your scraper is a real Chrome browser.
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Referer": "https://www.google.com/",
+    "Upgrade-Insecure-Requests": "1"
+}
+
 
 class NewsCrawler:
     def __init__(
@@ -46,7 +56,11 @@ class NewsCrawler:
         self.max_links = max_links
         self.request_delay = request_delay
         self.include_unknown_date = include_unknown_date
+        
+        # Initialize session and inject anti-bot headers
         self.session: Session = get_session()
+        self.session.headers.update(BROWSER_HEADERS) 
+        
         self.sites: List[SiteConfig] = get_site_configs()
         ensure_folder(self.output_folder)
         self.seen_urls: Set[str] = find_existing_urls(self.output_folder)
@@ -105,7 +119,9 @@ class NewsCrawler:
     def is_article_url(self, site: SiteConfig, url: str) -> bool:
         if not url.startswith("http"):
             return False
-        if site.article_filter and not site.article_filter(url):
+        # Uses getattr to prevent AttributeError if article_filter is missing
+        article_filter = getattr(site, "article_filter", None)
+        if article_filter and not article_filter(url):
             return False
         return any(pattern.search(url) for pattern in site.link_patterns)
 
@@ -171,7 +187,9 @@ class NewsCrawler:
         return extract_text_from_html(html)
 
     def extract_summary(self, site: SiteConfig, soup: BeautifulSoup, fallback: str) -> str:
-        for selector in site.summary_selectors:
+        # Uses getattr to prevent AttributeError if summary_selectors is missing
+        summary_selectors = getattr(site, "summary_selectors", [])
+        for selector in summary_selectors:
             element = soup.select_one(selector)
             if element:
                 return compact_text(element.get_text())
