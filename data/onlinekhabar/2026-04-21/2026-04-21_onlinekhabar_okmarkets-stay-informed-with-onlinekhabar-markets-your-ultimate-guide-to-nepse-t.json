@@ -1,0 +1,43 @@
+{
+  "source": "onlinekhabar",
+  "url": "https://www.onlinekhabar.com/markets/",
+  "title": "OKMarkets - Stay Informed with Onlinekhabar Markets: Your Ultimate Guide to NEPSE Trading, NEPSE Live, Charts, Stock Live Blog and More",
+  "published_at": null,
+  "scraped_at": "2026-04-21T03:30:22.354408",
+  "authors": [],
+  "summary": "",
+  "content": "",
+  "main_image": "https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/ok-profile.jpeg",
+  "image_urls": [
+    "https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/ok-profile.jpeg",
+    "https://www.onlinekhabar.com/markets/icons/okLogo.png",
+    "https://www.onlinekhabar.com/markets/calculator/share.png",
+    "https://www.onlinekhabar.com/markets/calculator/weightedAvg.png",
+    "https://www.onlinekhabar.com/markets/calculator/dividend.png",
+    "https://www.onlinekhabar.com/markets/calculator/marginLending.png",
+    "https://www.onlinekhabar.com/markets/calculator/sip.png",
+    "https://www.onlinekhabar.com/markets/calculator/emi.png",
+    "https://www.onlinekhabar.com/markets/chartIcon.png",
+    "https://www.onlinekhabar.com/markets/tableIcon.png"
+  ],
+  "tags": [
+    "Join Onlinekhabar Markets for real-time NEPSE trading updates, detailed charts, and expert market analysis, Stock Live Blog. Stay ahead with the latest company announcements, IPO news, and investment insights. Your trusted source for Nepal Stock Exchange updates!"
+  ],
+  "language": "ne",
+  "meta": {
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@online_khabar",
+    "twitter:creator": "@online_khabar",
+    "og:description": "Onlinekhabar.com - No. 1 News Portal from Nepal, Business news, Bank Credit Profit, Sale, Nepal Tourism Year news, Vehicle loan, sale, Bank",
+    "og:url": "https://www.onlinekhabar.com/",
+    "og:type": "website",
+    "og:image": "https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/ok-profile.jpeg",
+    "og:image:alt": "Online Khabar",
+    "og:image:width": "800",
+    "og:image:height": "600",
+    "og:locale": "en_US",
+    "og:site_name": "Online Khabar",
+    "keywords": "Join Onlinekhabar Markets for real-time NEPSE trading updates, detailed charts, and expert market analysis, Stock Live Blog. Stay ahead with the latest company announcements, IPO news, and investment insights. Your trusted source for Nepal Stock Exchange updates!",
+    "og:title": "OKMarkets - Stay Informed with Onlinekhabar Markets: Your Ultimate Guide to NEPSE Trading, NEPSE Live, Charts, Stock Live Blog and More"
+  }
+}
