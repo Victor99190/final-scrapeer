@@ -1,0 +1,40 @@
+{
+  "source": "bbcnepali",
+  "url": "https://www.bbc.com/nepali/topics/c5yj00yl1drt",
+  "title": "२०२६ फिफा विश्वकप",
+  "published_at": "2026-06-04T01:38:00",
+  "scraped_at": "2026-06-04T09:13:00.094562",
+  "authors": [],
+  "summary": "",
+  "content": "विश्वकप फुटबल २०२६ - खेलतालिका र परिणाम कुनै पनि गोल नछुटाउनुहोस् : खेल हुँदै गर्दा स्कोर र नतिजा पनि अद्यावधिक हुन्छ\n\nविश्वकप फुटबल २०२६ - खेलतालिका र परिणाम कुनै पनि गोल नछुटाउनुहोस् : खेल हुँदै गर्दा स्कोर र नतिजा पनि अद्यावधिक हुन्छ\n\nकुनै पनि गोल नछुटाउनुहोस् : खेल हुँदै गर्दा स्कोर र नतिजा पनि अद्यावधिक हुन्छ",
+  "main_image": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/nepali/images/metadata/poster-1024x576.png",
+  "image_urls": [
+    "https://static.files.bbci.co.uk/ws/simorgh-assets/public/nepali/images/metadata/poster-1024x576.png",
+    "https://a1.api.bbc.co.uk/hit.xiti?s=598342&s2=63&p=nepali.topics.c5yj00yl1drt.page&x1=[urn%3Abbc%3Atipo%3Atopic%3Ac5yj00yl1drt]&x2=[responsive]&x3=[news-nepali]&x4=[ne]&x7=[index-category]&x8=[simorgh-nojs]&x9=[%E0%A5%A8%E0%A5%A6%E0%A5%A8%E0%A5%AC%2520%E0%A4%AB%E0%A4%BF%E0%A4%AB%E0%A4%BE%2520%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%95%E0%A4%AA]",
+    "https://ichef.bbci.co.uk/ace/ws/224/cpsprodpb/4d8e/live/97d62180-5f3e-11f1-8b8c-6d33e1d5abb6.png.webp",
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/be9c/live/44ac0960-5fe9-11f1-89a3-d1f559421220.jpg.webp",
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ff44/live/39552aa0-5383-11f1-8b8c-6d33e1d5abb6.jpg.webp",
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/bce7/live/21dfe660-54ed-11f1-89a3-d1f559421220.jpg.webp",
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/20fb/live/3abb52a0-4f57-11f1-8477-5bdfd2412ea9.jpg.webp",
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c6ed/live/14429b20-4f0b-11f1-bbd7-4dd9e7da3820.jpg.webp",
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/793b/live/337565f0-1d5a-11f1-9120-a910fc22c6ac.jpg.webp",
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d0c8/live/56467c10-c94d-11f0-8c06-f5d460985095.jpg.webp"
+  ],
+  "tags": [],
+  "language": "ne",
+  "meta": {
+    "og:image": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/nepali/images/metadata/poster-1024x576.png",
+    "og:image:alt": "BBC News नेपाली",
+    "og:locale": "ne-NP",
+    "og:site_name": "BBC News नेपाली",
+    "og:title": "२०२६ फिफा विश्वकप - BBC News नेपाली",
+    "og:type": "website",
+    "og:url": "https://www.bbc.com/nepali/topics/c5yj00yl1drt",
+    "twitter:card": "summary_large_image",
+    "twitter:creator": "@bbcnepali",
+    "twitter:image:alt": "BBC News नेपाली",
+    "twitter:image:src": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/nepali/images/metadata/poster-1024x576.png",
+    "twitter:site": "@bbcnepali",
+    "twitter:title": "२०२६ फिफा विश्वकप - BBC News नेपाली"
+  }
+}
